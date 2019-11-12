@@ -4,6 +4,7 @@
     <output value="Привет $UserName!" if="full($UserName)"/>
 	<context>	
 	  <input pattern="* $Color"/>
+		<var name="Color"/>
 		<sample lang="ru">
   		<item value="ЗУП"/>
   		<item value="БП"/>
