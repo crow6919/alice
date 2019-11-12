@@ -1,8 +1,6 @@
 <context>
 <input pattern="*">
   <output value="Вы активировали Первые ИТ"/>
-</input>
-</context>
 <context>
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
@@ -17,4 +15,6 @@
            </input>
       </context>
     </input>
+</context>
+</input>
 </context>
