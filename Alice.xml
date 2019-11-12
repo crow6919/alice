@@ -1,16 +1,14 @@
 <context>
-<input pattern="*">
-  <output value="Добро пожаловать в Первые ИТ"/>
- </input>
-  </context> 
-<context>
+
     <sample>
        <item>Историю компании</item>
             <item>Вакансии</item>
             <item>Програмные продукты</item>
              <item>Услуги</item>
     </sample>
-
+<input pattern="*">
+  <output value="Добро пожаловать в Первые ИТ"/>
+  </input>
     <input pattern="* (привет*|здравствуй*|Хай*) *">
         <output if="full($UserName)">
             <item value="Привет, $UserName! Рада снова видеть тебя!"/>
