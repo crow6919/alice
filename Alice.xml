@@ -6,12 +6,7 @@
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
           
-   <sample lang="ru">
-      <item>Историю компании</item>
-      <item>Вакансии</item>
-      <item>Програмные продукты</item>
-       <item>Услуги</item>
-    </sample>   
+      
     <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
     <context if="empty($UserName)">
       <output value="Здравствуйте! Как можно к Вам обращаться?"/>
@@ -19,6 +14,10 @@
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
+         
+          <context>
+          <input pattern="*"> 
+            <output value="Задайте вопрос?"/>
           <sample lang="ru">
            <item>Историю компании</item>
             <item>Вакансии</item>
@@ -31,7 +30,8 @@
  </input>
 </context>
 
-
+ </input>
+</context>
 
   </input>
       </context>
