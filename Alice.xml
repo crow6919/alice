@@ -1,9 +1,17 @@
 <context>
 <input pattern="*">
   <output value="Вы активировали Первые ИТ"/>
-        
+    <context>
+    <input pattern="* $Color"/>
+      <output value="Выберите"/>
+    <sample>
+      <item>Green</item>
+      <item>Blue</item>
+      <item>Red</item>
+    </sample>    
               
-         
+    </input>
+      </context>      
 
   </input>
       </context>
