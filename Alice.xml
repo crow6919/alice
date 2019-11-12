@@ -1,8 +1,5 @@
 <context> 
-	<sample>
-        <item value="Кто такая Алиса"/>
-        <item value="Что такое бот"/>
-    </sample>
+	
 <input pattern="*">
   <output value="Добро пожаловать в Первые ИТ"/>
 <context> 
@@ -17,7 +14,10 @@
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
-	    
+	    <sample>
+        <item value="Кто такая Алиса"/>
+        <item value="Что такое бот"/>
+    </sample>
 <context> 
 	
   <input pattern="* (Историю компании*) *">
