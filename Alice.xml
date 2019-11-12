@@ -1,15 +1,16 @@
 <context>
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
-    <output value="Привет $UserName!" if="full($UserName)"/>
-	<context>	
-	  
-		<sample lang="ru">
-  		<item value="ЗУП"/>
-  		<item value="БП"/>
- 	 	<item value="УТ"/>
-		</sample>
-		</context>
+    <output value="Здравствуй, $UserName! Какой у Вас вопрос?"/>
+  <context>
+    <input pattern="* $Color"/>
+    <sample>
+      <item>Green</item>
+      <item>Blue</item>
+      <item>Red</item>
+    </sample>
+  </context>
+</input>
 
     <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
     <context if="empty($UserName)">
