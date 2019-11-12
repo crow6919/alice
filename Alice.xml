@@ -30,6 +30,12 @@
  </input>
 </context>
 
+	  <context>  
+ <input pattern="* пока *">
+ <var name="end_session" value="javascript: true"/>
+ <output value="Пока"/>
+</input>
+</context>
 
 
   
