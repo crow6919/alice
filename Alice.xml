@@ -2,13 +2,14 @@
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуй, $UserName! Какой у Вас вопрос?"/>
-  
+  <context>
     <input pattern="* $Color"/>
     <sample>
       <item>Green</item>
       <item>Blue</item>
       <item>Red</item>
     </sample>
+	  </context>
   </context>
 </input>
 
