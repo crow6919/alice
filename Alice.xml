@@ -1,13 +1,3 @@
- <context>
-<input pattern="(hi|hello) *">
-  <output value="Hi! What is your favorite color?"/>
-
-
-    <input pattern="* $Color"/>
-    <sample>
-      <item>Green</item>
-      <item>Blue</item>
-      <item>Red</item>
-    </sample>
-  </context>
+<input pattern="*">
+  <output value="Вы активировали Первые ИТ"/>
 </input>
