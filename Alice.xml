@@ -1,3 +1,5 @@
+<context>
 <input pattern="*">
   <output value="Вы активировали Первые ИТ"/>
 </input>
+</context>
