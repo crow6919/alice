@@ -5,6 +5,10 @@
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуйте $UserName! По какой конфигурации у Вас вопрос?" if="full($UserName)"/>
+    
+    <context>
+    <input pattern="* $Color"/>
+    
    <sample lang="ru">
       <item>ЗУП</item>
       <item>БП</item>
@@ -27,4 +31,6 @@
         </input>
       </context>
     </input>
+</context>
+      </input>
 </context>
