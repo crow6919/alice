@@ -3,7 +3,7 @@
     <!-- Здороваемся если знаем имя -->
     <output value="Привет $UserName!" if="full($UserName)"/>
 	<context>	
-	  <input pattern="* $ConFF"/>
+	  <input pattern="* $Color"/>
 		<sample lang="ru">
   		<item value="ЗУП"/>
   		<item value="БП"/>
