@@ -1,16 +1,22 @@
 <context>
-  <input pattern="* (привет*|здравствуй*) *">
+  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Привет $UserName!" if="full($UserName)"/>
 
     <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
     <context if="empty($UserName)">
-      <output value="Привет! А как тебя зовут?"/>
+      <output value="Здравствуйте! А как Вас зовут?"/
 
         <input pattern="$Text">
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
-          <output value="Приятно познакомиться, $UserName!"/>
+          <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
+		<sample lang="ru">
+  		<item value="Белый"/>
+  		<item value="Синий"/>
+ 	 	<item value="Красный"/>
+		</sample>
+		
         </input>
       </context>
     </input>
