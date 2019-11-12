@@ -1,6 +1,9 @@
 <context>
 <input pattern="*">
   <output value="Добро пожаловать в Первые ИТ"/>
+ </input>
+  </context> 
+<context>
     <sample>
        <item>Историю компании</item>
             <item>Вакансии</item>
