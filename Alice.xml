@@ -2,6 +2,14 @@
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Привет $UserName!" if="full($UserName)"/>
+		<input pattern="* $ConFF"/>
+		<context>
+		<sample lang="ru">
+  		<item value="ЗУП"/>
+  		<item value="БП"/>
+ 	 	<item value="УТ"/>
+		</sample>
+		</context>
 
     <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
     <context if="empty($UserName)">
