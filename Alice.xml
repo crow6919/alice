@@ -2,7 +2,7 @@
 <input pattern="*">
   <output value="Вы активировали Первые ИТ"/>
     <context>
-    <input pattern="* $Color"/>
+    <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
       <output value="Выберите"/>
     <sample>
       <item>Green</item>
