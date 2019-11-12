@@ -13,7 +13,8 @@
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
-		
+</input>
+      </context>
            
 <context>
 	 <sample lang="ru">
@@ -31,8 +32,7 @@
 
 
 
-  </input>
-      </context>
+  
     </input>
 </context>
       </input>
