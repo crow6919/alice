@@ -2,8 +2,8 @@
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Привет $UserName!" if="full($UserName)"/>
-		<input pattern="* $ConFF"/>
-		<context>
+	<context>	
+	  <input pattern="* $ConFF"/>
 		<sample lang="ru">
   		<item value="ЗУП"/>
   		<item value="БП"/>
