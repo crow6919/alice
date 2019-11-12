@@ -1,36 +1,31 @@
 <context>
 <input pattern="*">
-  <output value="Вы активировали Первые ИТ"/>
+  <output value="Добро пожаловать в Первые ИТ"/>
 <context>
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
-    <output value="Здравствуйте $UserName! По какой конфигурации у Вас вопрос?" if="full($UserName)"/>
-    
-        
+    <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
+          
    <sample lang="ru">
-      <item>ЗУП</item>
-      <item>БП</item>
-      <item>УТ</item>
+      <item>Историю компании</item>
+      <item>Вакансии</item>
+      <item>Програмные продукты</item>
+       <item>Услуги</item>
     </sample>   
     <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
     <context if="empty($UserName)">
-      <output value="Здравствуйте! А как Вас зовут?"/>
+      <output value="Здравствуйте! Как можно к Вам обращаться?"/>
         <input pattern="$Text">
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
           <sample lang="ru">
-            <item>ЗУП</item>
-            <item>БП</item>
-            <item>УТ</item>
+           <item>Историю компании</item>
+            <item>Вакансии</item>
+            <item>Програмные продукты</item>
+             <item>Услуги</item>
           </sample>
-          
-          <context>
-    <input pattern="* $Color"/>
-          
-            </input>
-          </context>
-        </input>
+           </input>
       </context>
     </input>
 </context>
