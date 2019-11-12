@@ -5,6 +5,7 @@
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
    
       <output value="Здравствуйте! Как можно к Вам обращаться?"/>
+	  <context>
         <input pattern="$Text">
           <!-- Сохранем мия пользователя в переменную UserName -->
           <var name="UserName" value="cap($Text)" scope="user"/>
