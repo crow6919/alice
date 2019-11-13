@@ -2,7 +2,7 @@
 	<input pattern="*">
  		 <output value="Добро пожаловать в Первые ИТ"/>
 	
-	
+<context>
 	<context>
 	
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
@@ -33,7 +33,7 @@
 				</input>	
 			</context>
 		    </input>
-		
+		</context>
 	    </input>	
 
 		<sample>
@@ -70,8 +70,8 @@
  	<output value="Непонимаю что Вы говорите"/>
 	</input>  
 	
-	</context>
 	
+	</context>
 </context>
 
 
