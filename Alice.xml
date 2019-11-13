@@ -18,16 +18,18 @@
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 
+	<sample>
+        <item value="Историю"/>
+        <item value="Что такое бот"/>
+    	</sample>
+			
 				</input>	
 			</context>
 		    </input>
 		</context>
 	    </input>	
 
-	<sample>
-        <item value="Историю"/>
-        <item value="Что такое бот"/>
-    	</sample>
+	
 
 	<input pattern="* Историю *">
 	<output value="Компания Блабалбалаблабалабала."/>
