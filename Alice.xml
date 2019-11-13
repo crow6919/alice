@@ -15,8 +15,8 @@
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 	    <sample>
-        <item value="Кто такая Алиса"/>
-        <item value="Что такое бот"/>
+        <item value="История компании"/>
+        <item value="Продукты"/>
     </sample>
 <context> 
 	
