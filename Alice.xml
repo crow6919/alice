@@ -21,6 +21,11 @@
         <item value="История компании"/>
         <item value="Продукты"/>
     </sample>
+		
+<context> 
+<input pattern="*">
+  <output value="Непонятно"/>
+		
 <context> 
 	
   <input pattern="* (Историю компании*|История компании*|Историю*) *">
@@ -35,8 +40,11 @@
 					</context>
      						 </input>
 							</context>
+		
 
 </input>
       </context>
            </input>
 		</context>
+</input>
+							</context>
