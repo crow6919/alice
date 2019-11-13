@@ -5,15 +5,15 @@
 	
 
 	<context>
-	<sample>
-        <item value="Историю"/>
-        <item value="Что такое бот"/>
-    	</sample>
+	
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
 	    <!-- Здороваемся если знаем имя -->
 	    <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
         
-
+	<sample>
+        <item value="Историю"/>
+        <item value="Что такое бот"/>
+    	</sample>
 	       <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 	    <context if="empty($UserName)">
 	      <output value="Здравствуйте! Как можно к Вам обращаться?"/>
@@ -22,7 +22,10 @@
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 
-	
+	<sample>
+        <item value="Историю"/>
+        <item value="Что такое бот"/>
+    	</sample>
 			
 				</input>	
 			</context>
