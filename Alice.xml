@@ -10,8 +10,10 @@
 	    <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
           <!-- Даем выбор -->
 		<sample>
-        	<item value="Историю"/>
-        	<item value="Что такое бот"/>
+        	<item value="Историю компании"/>
+        	<item value="Програмные продукт"/>
+			<item value="Услуги"/>
+			<item value="Вакансии"/>
     		</sample>
 	       <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 	    <context if="empty($UserName)">
@@ -23,7 +25,9 @@
 	 <!-- Даем выбор -->
 		<sample>
         	<item value="Историю компании"/>
-		<item value="Что такое бот"/>
+		<item value="Програмные продукты"/>
+			<item value="Услуги"/>
+			<item value="Вакансии"/>
     		</sample>
 			
 				</input>	
@@ -34,7 +38,7 @@
 
 	
 
-	<input pattern="* Историю *">
+	<input pattern="* Историю компании *">
 	<output value="Компания Блабалбалаблабалабала."/>
      	</input>
 
