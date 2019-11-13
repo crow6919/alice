@@ -5,7 +5,7 @@
   <output value="Добро пожаловать в Первые ИТ"/>
 	
 	
-
+<context>
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
@@ -21,6 +21,7 @@
 	 
 		</context>
 	    </input>
+	  <context>
 	     </input>
       </context>
 	</input>
