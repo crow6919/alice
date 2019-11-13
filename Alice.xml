@@ -3,7 +3,10 @@
 <context> 
 <input pattern="*">
   <output value="Добро пожаловать в Первые ИТ"/>
-
+	<sample>
+        <item value="Историю"/>
+        <item value="Продукты"/>
+    	</sample>
 	
 <context> 
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
@@ -20,10 +23,7 @@
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 	 
 
-	<sample>
-        <item value="Историю"/>
-        <item value="Продукты"/>
-    	</sample>
+	
 		
 	<context> 
 	<input pattern="* Историю *">
