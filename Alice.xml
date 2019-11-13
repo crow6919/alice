@@ -1,6 +1,6 @@
 <context> 
-	<input pattern="*">
- 		 <output value="Добро пожаловать в Первые ИТ"/>
+	<input pattern="* ( ) *">
+		 <output value="Добро пожаловать в Первые ИТ"/>
 	</input>
 	
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
@@ -62,7 +62,7 @@
      	</input>	
 	
 	<!-- Непонимаем -->
-	<input pattern="* ( ) *">
+	<input pattern="*">
  	<output value="Непонимаю что Вы говорите"/>
 	</input>  	
 		
