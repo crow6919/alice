@@ -106,7 +106,7 @@
                 <item value="В википедии ничего не нашлось..."/>
             </output>
 
-            <output value="$Result" if="full($Result)"/>
+            <output value="Я поискала в википедии и вот что нашлось: $Result" if="full($Result)"/>
 
             <input pattern="* (еще|другой вариант) *"/>
 
