@@ -33,7 +33,7 @@
 				</input>	
 			</context>
 		    </input>
-		</context>
+		
 	    </input>	
 
 		<sample>
@@ -70,6 +70,7 @@
  	<output value="Непонимаю что Вы говорите"/>
 	</input>  
 	
+	</context>
 	
 </context>
 
