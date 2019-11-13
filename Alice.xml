@@ -10,7 +10,7 @@
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
            <sample>
-        <item value="Историю компании"/>
+        <item value="Историю"/>
         <item value="Продукты"/>
     </sample>
 
