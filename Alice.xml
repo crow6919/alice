@@ -65,15 +65,12 @@
  	<output value="Пока"/> 				 
      	</input>	
 	
-		
-		
-</context>
-
-<context>
-<!-- Непонимаем -->
-	<input pattern="*">
+	<!-- Непонимаем -->
+	<input pattern="* () *">
  	<output value="Непонимаю что Вы говорите"/>
-	</input>  
+	</input>  	
+		
+
 	
 </context>
 
