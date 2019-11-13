@@ -12,8 +12,8 @@
 		<sample>
         	<item value="Историю компании"/>
         	<item value="Програмные продукты"/>
-			<item value="Услуги"/>
-			<item value="Вакансии"/>
+		<item value="Услуги"/>
+		<item value="Вакансии"/>
     		</sample>
 	       <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 	    <context if="empty($UserName)">
@@ -26,8 +26,8 @@
 		<sample>
         	<item value="Историю компании"/>
 		<item value="Програмные продукты"/>
-			<item value="Услуги"/>
-			<item value="Вакансии"/>
+		<item value="Услуги"/>
+		<item value="Вакансии"/>
     		</sample>
 			
 				</input>	
@@ -36,7 +36,12 @@
 		</context>
 	    </input>	
 
-	
+		<sample>
+        	<item value="Историю компании"/>
+		<item value="Програмные продукты"/>
+		<item value="Услуги"/>
+		<item value="Вакансии"/>
+    		</sample>
 <!-- Рассказываем -->
 	<input pattern="* Историю компании *">
 	<output value="Компания Блабалбалаблабалабала."/>
