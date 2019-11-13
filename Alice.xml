@@ -3,12 +3,9 @@
 <context> 
 <input pattern="*">
   <output value="Добро пожаловать в Первые ИТ"/>
-	<sample>
-        <item value="Историю"/>
-        <item value="Продукты"/>
-    	</sample>
 	
-<context> 
+	
+
   <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
     <!-- Здороваемся если знаем имя -->
     <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
@@ -22,8 +19,11 @@
           <var name="UserName" value="cap($Text)" scope="user"/>
           <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 	 
-
-	
+		</context>
+	    </input>
+	     </input>
+      </context>
+	</input>
 		
 	<context> 
 	<input pattern="* Историю *">
@@ -44,11 +44,9 @@
 			</context> 
    				 
      						 
-	</input>
-		</context>
+	
 
-</input>
-      </context>
+
 </input>
 	</context>
 </input>
