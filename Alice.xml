@@ -41,8 +41,13 @@
 	<input pattern="* Историю компании *">
 	<output value="Компания Блабалбалаблабалабала."/>
      	</input>
-
-
+	
+	
+<!-- Прощаемся -->
+	<input pattern="* пока *">
+ 	<var name="end_session" value="javascript: true"/>
+ 	<output value="Пока"/> 				 
+     				</input>	
 	
 	
 	
