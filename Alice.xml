@@ -37,17 +37,20 @@
 	    </input>	
 
 	
-
+<!-- Рассказываем -->
 	<input pattern="* Историю компании *">
 	<output value="Компания Блабалбалаблабалабала."/>
      	</input>
 	
+	<input pattern="* Програмные продукты *">
+	<output value="Програмные продукты Блабалбалаблабалабала."/>
+     	</input>
 	
 <!-- Прощаемся -->
 	<input pattern="* пока *">
  	<var name="end_session" value="javascript: true"/>
  	<output value="Пока"/> 				 
-     				</input>	
+     	</input>	
 	
 	
 	
