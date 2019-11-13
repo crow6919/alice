@@ -66,7 +66,11 @@
  	<output value="Пока"/> 				 
      	</input>	
 	
-			
+<!-- Обижаемся -->
+	<input pattern="* (дура*|дурак*|сука*|мразь*|тварь*|блять*|блядь*|падла*|мразота*|дебилка*|тупая*|тупица*) *">
+ 	<var name="end_session" value="javascript: true"/>
+ 	<output value="Что Вы себе позволяете? Прощайте"/> 				 
+     	</input>
 
 	
 </context>
