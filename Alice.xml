@@ -1,9 +1,9 @@
 <context> 
 	<input pattern="*">
  		 <output value="Добро пожаловать в Первые ИТ"/>
-	
+	</input>
 
-	<context>
+	
 	
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
 	    <!-- Здороваемся если знаем имя -->
@@ -28,10 +28,8 @@
 		<item value="Програмные продукты"/>
 		<item value="Услуги"/>
 		<item value="Вакансии"/>
-    		</sample>
+    		</sample>				
 			
-				</input>	
-			</context>
 		    </input>
 		</context>
 	    </input>	
