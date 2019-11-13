@@ -28,4 +28,8 @@
 
 </context>
 
-
+<context> 
+	<input pattern="* Историю *">
+	<output value="Компания Блабалбалаблабалабала."/>
+     </input>
+</context>
