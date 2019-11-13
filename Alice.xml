@@ -1,4 +1,6 @@
 <context> 
+
+<context> 
 	
 <input pattern="*">
   <output value="Добро пожаловать в Первые ИТ"/>
@@ -50,7 +52,7 @@
 			</context> 
    				 
      						 
-		
+	</context>	
 
 
 
