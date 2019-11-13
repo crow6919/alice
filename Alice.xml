@@ -2,7 +2,7 @@
 	<input pattern="*">
  		 <output value="Добро пожаловать в Первые ИТ"/>
 	
-<context>
+
 	<context>
 	
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
@@ -65,13 +65,15 @@
  	<output value="Пока"/> 				 
      	</input>	
 	
-	<!-- Непонимаем -->
+		
+		
+</context>
+
+<context>
+<!-- Непонимаем -->
 	<input pattern="*">
  	<output value="Непонимаю что Вы говорите"/>
 	</input>  
 	
-	
-	</context>
 </context>
-
 
