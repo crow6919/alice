@@ -2,7 +2,7 @@
 	<input pattern="*">
  		 <output value="Добро пожаловать в Первые ИТ"/>
 	
-</input>	
+	
 
 	<context>
 	  <input pattern="* (привет*|здравствуй*|хай*|здарова*) *">
@@ -18,7 +18,7 @@
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться, $UserName! Какой у Вас вопрос?"/>
 
-
+				</input>	
 			</context>
 		    </input>
 		</context>
