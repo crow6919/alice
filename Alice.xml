@@ -24,6 +24,10 @@
 		</context>
 	    </input>	
 
+	<sample>
+        <item value="Историю"/>
+        <item value="Что такое бот"/>
+    	</sample>
 
 	<input pattern="* Историю *">
 	<output value="Компания Блабалбалаблабалабала."/>
