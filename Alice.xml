@@ -46,6 +46,14 @@
 	<output value="Програмные продукты Блабалбалаблабалабала."/>
      	</input>
 	
+	<input pattern="* Услуги *">
+	<output value="Услуги Блабалбалаблабалабала."/>
+     	</input>
+	
+	<input pattern="* Вакансии *">
+	<output value="Вакансии Блабалбалаблабалабала."/>
+     	</input>
+	
 <!-- Прощаемся -->
 	<input pattern="* пока *">
  	<var name="end_session" value="javascript: true"/>
