@@ -2,13 +2,14 @@
 	<!-- Непонимаем -->
 	<input pattern="*">
  	<output value="Непонимаю что Вы говорите"/>
-	</input> 
-	
 	<!-- ПриветПока -->
 		<sample>
         	<item value="Привет"/>
         	<item value="Пока"/>
 		 </sample>
+	</input> 
+	
+	
 	
 	
 	<!-- Пишем конфу -->
