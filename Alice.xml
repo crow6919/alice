@@ -6,14 +6,20 @@
 	
 	
 	
-	<!-- Пишем конфу -->
+	<<!-- Пишем конфу -->
 
-<input pattern="Спроси конфу">
-<output value="Напиши конфу"/>
+<input pattern="У меня вопрос">
+<output value="По какой области у Вас вопрос?"/>
 	</input>
+		<sample>
+        	<item value="Зарплата"/>
+        	<item value="Бухгалтерия"/>
+		<item value="Торговля"/>
+		<item value="Производство"/>
+    		</sample>
 	 <input pattern="$Text">
 		  <var name="NameConf" value="cap($Text)" scope="config"/>
-		  <output value="Название $NameConf! "/>
+		  <output value="У вас вопрос по $NameConf! "/>
 	
 	</input>
 	
