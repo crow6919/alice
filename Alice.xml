@@ -2,7 +2,22 @@
 	<!-- Непонимаем -->
 	<input pattern="*">
  	<output value="Непонимаю что Вы говорите"/>
-	</input>  	
+	</input> 
+	
+	
+	
+	<!-- Пишем конфу -->
+
+<input pattern="Спроси конфу">
+<output value="Напиши конфу"/>
+	   <input pattern="$Text">
+		  <var name="NameConf" value="cap($Text)" scope="config"/>
+		  <output value="Название $NameConf! "/>
+		<input/>
+	
+	
+	
+	
 	
 	<input pattern="* ( ) *">
 		 <output value="Добро пожаловать в Первые ИТ!Я АйТишка!"/>
@@ -31,19 +46,7 @@
 		<item value="Програмные продукты"/>
 		<item value="Услуги"/>
 		<item value="Вакансии"/>
-    		</sample>				
-			
-			<!-- Пишем конфу -->
-<context>
-<input pattern="Спроси конфу">
-<output value="Напиши конфу"/>
-	   <input pattern="$Text">
-		  <var name="NameConf" value="cap($Text)" scope="config"/>
-		  <output value="Название $NameConf! "/>
-		</context>
-		   <input/>
-			<input/>
-			
+    		</sample>						
 			
 		    </input>
 		</context>
