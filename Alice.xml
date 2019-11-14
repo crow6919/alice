@@ -41,6 +41,7 @@
 		  <!-- Сохранем мия пользователя в переменную UserName -->
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Здравствуйте $UserName! Назовите вашу фирму?"/>
+		</input>
 		<input pattern="$Text">
 		  <!-- Сохранем фирму пользователя в переменную OrgName -->
 		  <var name="OrgName" value="cap($Text)" scope="org"/>
@@ -56,7 +57,7 @@
 		    </input>
 		</context>
 	    </input>
-	</input>
+	
 		
 	    	
 	<!-- Даем выбор -->	
