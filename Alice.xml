@@ -137,5 +137,5 @@ IT сопровождение компьютерных систем и серв�
 		  <var name="NameConf" value="cap($Text)" scope="config"/>
 		  <output value="Название $NameConf! "/>
 		<input/>
-	<input/>	
+		
 </context>
