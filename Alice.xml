@@ -10,10 +10,11 @@
 
 <input pattern="Спроси конфу">
 <output value="Напиши конфу"/>
+	</input>
 	 <input pattern="$Text">
 		  <var name="NameConf" value="cap($Text)" scope="config"/>
 		  <output value="Название $NameConf! "/>
-	</input>
+	
 	</input>
 	
 	
