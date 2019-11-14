@@ -11,11 +11,6 @@
 <output value="По какой области у Вас вопрос?"/>
 	</input>
 		
-	 <input pattern="$Text">
-		  <var name="NameConf" value="cap($Text)" scope="config"/>
-		  <output value="У вас вопрос по $NameConf! "/>
-	
-	</input>
 	
 	
 	
