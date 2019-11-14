@@ -126,15 +126,7 @@ IT сопровождение компьютерных систем и серв�
 
     </input>
 
-	<!-- Пишем конфу -->
-
-<input pattern="Спроси конфу">
-<output value="Напиши конфу"/>
-	   <input pattern="$Text">
-		  <var name="NameConf" value="cap($Text)" scope="config"/>
-		  <output value="Название $NameConf! "/>
-		<input/>
-	<input/>	
+	
 	
 </context>
 
