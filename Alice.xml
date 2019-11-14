@@ -36,7 +36,7 @@
     		</sample>
 	       <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 
-	      <context if="empty($UserName)"
+	          <context if="empty($UserName)">
 	      <output value="Здравствуйте! Как называется Ваша Компания?"/>
 		<input pattern="$Text">
 		  <!-- Сохранем название компании -->
