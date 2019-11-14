@@ -46,7 +46,7 @@
 	 	<input pattern="$Text">
 		<var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться, $UserName! Чем могу Вам помочь?"/>
-</input>
+		
 		   
 <!-- Даем выбор -->
 		<sample>
@@ -55,9 +55,10 @@
 		<item value="Услуги"/>
 		<item value="Вакансии"/>
     		</sample>						
-			
-		    </input>
-		</context>
+			</input>
+		    </context>
+			  </input>
+		
 	    </input>		
 	<!-- Даем выбор -->	
 		<sample>
