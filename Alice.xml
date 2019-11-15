@@ -13,7 +13,7 @@
 	
 	
 	<!-- Пишем конфу -->
-
+<context>
 <input pattern="У меня вопрос">
 <output value="По какой области у Вас вопрос?"/>
 	<sample>
@@ -28,7 +28,7 @@
 	 <input pattern="$Text">
 		  <var name="NameConf" value="cap($Text)" scope="config"/>
 		  <output value="У вас вопрос по $NameConf! "/>
-	
+	</context>
 	</input>
 	
 	
