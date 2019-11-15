@@ -1,6 +1,16 @@
 <context>
+<!-- Приветствуем -->
+	<input pattern="* ( ) *">
+		 <output value="Добро пожаловать в Первые ИТ!Я АйТишка!"/>
+		
+<!-- ПриветПока -->
+		<sample>
+        	<item value="Привет"/>
+        	<item value="Пока"/>
+		 </sample>			
+	</input>
 	
-	<!-- Непонимаем -->
+<!-- Непонимаем -->
 	<input pattern="*">
  	<output>
 		<item>Непонимаю что Вы говорите</item>>
@@ -12,7 +22,7 @@
 	
 	
 	
-	<!-- Пишем конфу -->
+<!-- Пишем конфу -->
 
 <input pattern="У меня вопрос">
 <context id="ask">	
@@ -31,20 +41,8 @@
 		  <output value="У вас вопрос по $NameConf! "/>
 		 </input>
 	 </context>
-	</input>
-	
-	
-	
-	
-	<input pattern="* ( ) *">
-		 <output value="Добро пожаловать в Первые ИТ!Я АйТишка!"/>
-	<!-- ПриветПока -->
-		<sample>
-        	<item value="Привет"/>
-        	<item value="Пока"/>
-		 </sample>			
-	</input>
-	
+	</input>	
+<!-- Здоровываемся -->
 		<input pattern="* (привет*|здравствуй*|хай*|здарова*|добрый день*|добрый вечер*|доброе утро*) *">
 	    <!-- Здороваемся если знаем имя -->
 	    <output value="Здравствуйте $UserName! что Вы хотели бы узнать?" if="full($UserName)"/>
@@ -60,7 +58,7 @@
 	    <context if="empty($UserName)">
 	      <output value="Здравствуйте! Как можно к Вам обращаться?"/>
 		<input pattern="$Text">
-		  <!-- Сохранем мия пользователя в переменную UserName -->
+		  <!-- Сохранем Имя пользователя в переменную UserName -->
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Здравствуйте $UserName! Назовите вашу фирму?"/>
 		</input>
