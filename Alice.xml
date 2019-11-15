@@ -13,8 +13,9 @@
 	
 	
 	<!-- Пишем конфу -->
-<context>
+
 <input pattern="У меня вопрос">
+	<context>
 <output value="По какой области у Вас вопрос?"/>
 	<sample>
         	<item value="Зарплата"/>
