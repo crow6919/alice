@@ -22,7 +22,7 @@
         	<item value="Бухгалтерия"/>
 		<item value="Торговля"/>
 		<item value="Производство"/>
-    		</sample>
+    	</sample>
 	</input>
 		
 	
@@ -31,7 +31,7 @@
 		  <output value="У вас вопрос по $NameConf! "/>
 	
 	</input>
-	</context>
+	</context id="ask">
 	
 	
 	
