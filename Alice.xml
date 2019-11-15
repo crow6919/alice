@@ -26,7 +26,7 @@
 			<item value="У меня вопрос"/>
     		</sample>
 <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
-	    <context if="empty($UserName)">
+	    <context if="empty($DolJName)">
 	    <output value="Здравствуйте! Меня зовут АйТишка, а Вас?"/>
 		<input pattern="$Text">
 		  <!-- Сохранем Имя пользователя в переменную UserName -->
