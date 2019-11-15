@@ -26,18 +26,18 @@
 			<item value="У меня вопрос"/>
     		</sample>
 <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
-	    <context if="empty($DolJName)">
+	    <context if="empty($UserName)">
 	    <output value="Здравствуйте! Меня зовут АйТишка, а Вас?"/>
 		<input pattern="$Text">
 		  <!-- Сохранем Имя пользователя в переменную UserName -->
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться $UserName! Назовите вашу фирму пожалуйста?"/>
-		</input>
+		 
 		<input pattern="$Text">
 		  <!-- Сохранем фирму пользователя в переменную OrgName -->
 		  <var name="OrgName" value="cap($Text)" scope="org"/>
 		  <output value="$UserName, а какую должность Вы занимаете в $OrgName ?"/>
- 		</input>
+ 		 
 		<input pattern="$Text">
 		  <!-- Сохранем Должность пользователя в переменную OrgName -->
 		  <var name="DolJName" value="cap($Text)" scope="dolj"/>
@@ -56,8 +56,8 @@
 		</input>
 		</context>
 		</input>	
-	    	
-
+	    	</input>
+		</input>		
 	
 <!-- Рассказываем -->
 	<input pattern="* О компании *">
