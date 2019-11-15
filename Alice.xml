@@ -10,10 +10,8 @@
         	<item value="Привет"/>
         	<item value="Пока"/>
 		 </sample>
-	</context>
 	</input>
-	
-<!-- Непонимаем -->
+		<!-- Непонимаем -->
 	<input pattern="*">
  	<output>
 		<item>Непонимаю что Вы говорите</item>>
@@ -21,7 +19,11 @@
 		<item>Может что то другое?</item>>
 		<item>Давайте начнем сначала?</item>>
 	</output>
+	
+		</context>
 	</input> 
+	
+
 	
 	
 	
