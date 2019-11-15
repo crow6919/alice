@@ -25,10 +25,11 @@
 			<item value="Вакансии"/>
 			<item value="У меня вопрос"/>
     		</sample>
-			</input>
+			
 <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 	    <context if="empty($OrgName)">
 	    <output value="Здравствуйте! Меня зовут АйТишка, а Вас?"/>
+		</input>
 		<input pattern="$Text">
 		  <!-- Сохранем Имя пользователя в переменную UserName -->
 		  <var name="UserName" value="cap($Text)" scope="user"/>
