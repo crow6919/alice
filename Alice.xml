@@ -25,6 +25,7 @@
 			<item value="Вакансии"/>
 			<item value="У меня вопрос"/>
     		</sample>
+			</input>
 <!-- Или переходим к внутреннему контексту чтобы выяснить имя -->
 	    <context if="empty($OrgName)">
 	    <output value="Здравствуйте! Меня зовут АйТишка, а Вас?"/>
@@ -51,9 +52,7 @@
 			<item value="Услуги"/>
 			<item value="Вакансии"/>
 			<item value="У меня вопрос"/>
-    		</sample>						
-			
-		</input>
+    		</sample>							
 		</context>
 		</input>	
 	    	
