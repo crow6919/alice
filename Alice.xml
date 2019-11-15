@@ -1,8 +1,12 @@
 <context>
 	<!-- Непонимаем -->
 	<input pattern="*">
- 	<output value="Непонимаю что Вы говорите"/>
-	
+ 	<output> 
+		<item>Непонимаю что Вы говорите</item>>
+		<item>Совсем не понятно</item>>
+		<item>Может что то другое?</item>>
+		<item>Давайте начнем сначала?</item>>
+	</output> 
 	</input> 
 	
 	
