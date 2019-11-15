@@ -23,12 +23,13 @@
 		<item value="Торговля"/>
 		<item value="Производство"/>
     	</sample>
-	</input>
+	
 		
 	
 	 <input pattern="$Text">
 		  <var name="NameConf" value="cap($Text)" scope="config"/>
 		  <output value="У вас вопрос по $NameConf! "/>
+		 </input>
 	 </context>
 	</input>
 	
