@@ -1,5 +1,5 @@
 <context>
-	<context id=Hi>
+	<context id="Hi">
 <!-- Приветствуем -->
 	<input pattern="* ( ) *">
 		 <output value="Добро пожаловать в Первые ИТ!Я АйТишка!"/>
