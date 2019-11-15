@@ -32,12 +32,12 @@
 		  <!-- Сохранем Имя пользователя в переменную UserName -->
 		  <var name="UserName" value="cap($Text)" scope="user"/>
 		  <output value="Приятно познакомиться $UserName! Назовите вашу фирму пожалуйста?"/>
-		 
+		 </input>
 		<input pattern="$Text">
 		  <!-- Сохранем фирму пользователя в переменную OrgName -->
 		  <var name="OrgName" value="cap($Text)" scope="org"/>
 		  <output value="$UserName, а какую должность Вы занимаете в $OrgName ?"/>
- 		 
+ 		 </input>
 		<input pattern="$Text">
 		  <!-- Сохранем Должность пользователя в переменную OrgName -->
 		  <var name="DolJName" value="cap($Text)" scope="dolj"/>
@@ -56,7 +56,7 @@
 		</input>
 		</context>
 		</input>	
-	    	</input>
+	    	
 				
 	
 <!-- Рассказываем -->
