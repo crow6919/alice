@@ -10,7 +10,7 @@
         	<item value="Привет"/>
         	<item value="Пока"/>
 		 </sample>
-	</input>
+	
 		<!-- Непонимаем -->
 	<input pattern="*">
  	<output>
@@ -19,7 +19,7 @@
 		<item>Может что то другое?</item>>
 		<item>Давайте начнем сначала?</item>>
 	</output>
-	
+	</input>
 		</context>
 	</input> 
 	
