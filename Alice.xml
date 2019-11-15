@@ -42,7 +42,7 @@
 		  <!-- Сохранем Должность пользователя в переменную OrgName -->
 		  <var name="DolJName" value="cap($Text)" scope="dolj"/>
 		  <output value="Ухты $DolJName! А я робот-консультант, но не бойтесь, я знаю три закона робототехники и не только, поэтому, $UserName, что бы Вы хотели узнать? "/>
-		</input>
+		
 			
 <!-- Даем выбор -->
 		<sample>
@@ -52,7 +52,7 @@
 			<item value="Вакансии"/>
 			<item value="У меня вопрос"/>
     		</sample>						
-			</input>
+			
 		</input>
 		</context>
 		</input>	
