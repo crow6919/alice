@@ -50,14 +50,7 @@
 		</context>
 		</input>	
 	    	
-<!-- Даем выбор -->	
-		<sample>
-        		<item value="Историю компании"/>
-			<item value="Програмные продукты"/>
-			<item value="Услуги"/>
-			<item value="Вакансии"/>
-			<item value="У меня вопрос"/>
-    		</sample>
+
 	
 <!-- Рассказываем -->
 	<input pattern="* Историю компании *">
