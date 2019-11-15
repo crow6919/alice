@@ -93,6 +93,12 @@ IT сопровождение компьютерных систем и серв�
   		<var name="NameConf" value="cap($Text)" scope="config"/>
 		<output value="У вас вопрос по $NameConf! "/>
 	</input>
+	<sample>
+        	<item value="Зарплата"/>
+        	<item value="Бухгалтерия"/>
+		<item value="Торговля"/>
+		<item value="Производство"/>
+    	</sample>
 <!-- Прощаемся -->
 	<input pattern="* пока *">
  	<var name="end_session" value="javascript: true"/>
